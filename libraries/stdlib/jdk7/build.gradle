@@ -76,7 +76,7 @@ task testJdk6Tests(type: Test) {
                 testClassesDirs,
                 configurations.testCompile
         )
-}
+    }
 }
 
 check.dependsOn testJdk6Tests
